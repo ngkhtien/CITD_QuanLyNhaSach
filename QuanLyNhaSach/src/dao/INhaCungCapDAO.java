@@ -4,7 +4,7 @@ import entity.NhaCungCapEntity;
 import java.util.List;
 
 public interface INhaCungCapDAO {
-    List<NhaCungCapEntity> getAllNhaCungCap();
+    List<NhaCungCapEntity> loadData();
 
     int addNhaCungCap(NhaCungCapEntity toEntity);
     int deleteNhaCungCap(NhaCungCapEntity toEntity);

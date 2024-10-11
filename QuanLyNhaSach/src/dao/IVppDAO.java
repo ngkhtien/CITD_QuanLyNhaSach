@@ -4,7 +4,7 @@ import entity.VppEntity;
 import java.util.List;
 
 public interface IVppDAO extends ISanPhamDAO{
-    List<VppEntity> getAllSach();
+    List<VppEntity> loadDataVpp();
 
     int addVpp(VppEntity toEntity);
     int deleteVpp(VppEntity toEntity);

@@ -4,7 +4,7 @@ import entity.PhieuXuatBanEntity;
 import java.util.List;
 
 public interface IPhieuXuatBanDAO {
-    List<PhieuXuatBanEntity> getAllPhieuXuatBan();
+    List<PhieuXuatBanEntity> loadData();
 
     int addPhieuXuatBan(PhieuXuatBanEntity toEntity);
     int deletePhieuXuatBan(PhieuXuatBanEntity toEntity);

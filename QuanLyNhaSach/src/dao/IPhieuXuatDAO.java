@@ -4,7 +4,7 @@ import entity.PhieuXuatEntity;
 import java.util.List;
 
 public interface IPhieuXuatDAO {
-    List<PhieuXuatEntity> getAllPhieuXuat();
+    List<PhieuXuatEntity> loadData();
 
     int addPhieuXuat(PhieuXuatEntity toEntity);
     int deletePhieuXuat(PhieuXuatEntity toEntity);
