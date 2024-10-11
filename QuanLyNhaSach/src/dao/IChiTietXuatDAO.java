@@ -4,7 +4,7 @@ import entity.ChiTietXuatEntity;
 import java.util.List;
 
 public interface IChiTietXuatDAO {
-    List<ChiTietXuatEntity> getAllChiTietXuat();
+    List<ChiTietXuatEntity> loadData();
 
     int addChiTietXuat(ChiTietXuatEntity toEntity);
     int deleteChiTietXuat(ChiTietXuatEntity toEntity);

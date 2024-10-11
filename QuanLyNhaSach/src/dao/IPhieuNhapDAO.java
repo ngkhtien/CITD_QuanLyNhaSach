@@ -4,7 +4,7 @@ import entity.PhieuNhapEntity;
 import java.util.List;
 
 public interface IPhieuNhapDAO {
-    List<PhieuNhapEntity> getAllPhieuNhap();
+    List<PhieuNhapEntity> loadData();
 
     int addPhieuNhap(PhieuNhapEntity toEntity);
     int deletePhieuNhap(PhieuNhapEntity toEntity);
